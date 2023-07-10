@@ -152,8 +152,55 @@ position: absolute;
 }
 
 
-
-    
-
-
 /*end feature section*/
+
+/*order form*/
+.order-box{
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(39, 39, 39, 0.05);
+    height: 150px;
+    padding: 55px 260px 100px 260px;
+    margin-top: 40px;
+    margin-bottom: 130px;
+ 
+}
+.order-content h2{
+ 
+    font-weight: 700px;
+    font-size: 25px;
+    color: #272727;
+    
+}
+.order-content p{
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+.order-forms-text{
+    margin-top: 40px;
+  
+    display: flex;
+    flex-direction: column;
+   
+}
+.order-forms-text input{
+    padding:15px 70px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgba(235, 229, 229, 0.521);
+    border: 1px solid white;
+   
+}
+
+.order-btn{
+    padding: 12px  30px;
+    margin-top: 20px;
+    background-color:  #E55473;
+    border: none;
+    color: rgba(255, 255, 255, 0.925);
+    font-weight: 700;
+}
+
+/*end order section*/
