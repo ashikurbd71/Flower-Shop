@@ -87,10 +87,10 @@ flex-shrink: 0;
 
 .featured-box-container{
     display: flex;
-    
+    justify-content: center;
     align-items: center;
    gap: 260px;
-    padding: 20px 340px 100px 292px;
+    padding: 20px 340px 100px 160px;
     margin-bottom: 300px;
    
 }
@@ -203,6 +203,11 @@ position: absolute;
     font-weight: 700;
 }
 
+.order-forms-text h1{
+    font-size: 30px;
+    color: #E55473;
+}
+
 /*end order section*/
 
 /*hit-deal start*/
@@ -262,6 +267,7 @@ width: 100%;
 
 .instragram-content{
     display: flex;
+
     justify-content: center;
     gap: 20px;
     margin-bottom: 25px;
@@ -302,8 +308,7 @@ width: 100%;
 .get-input input{
     
     padding: 12px 130px;
- 
-  
+    text-align: start;
     border: none;
     color:  rgba(39, 39, 39, 0.60);;
     border-radius: 8px;
@@ -313,8 +318,9 @@ font-weight: 400;}
 
 
 .get-input{
-    display: inline;
-    padding:  80px 20px 100px 200px;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .get-btn{
