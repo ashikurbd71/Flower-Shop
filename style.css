@@ -219,6 +219,10 @@ position: absolute;
     font-size: 30px;
     color: #E55473;
 }
+.order-form h1{
+    margin-bottom: 25px;
+    text-align: center;
+}
 
 /*end order section*/
 
