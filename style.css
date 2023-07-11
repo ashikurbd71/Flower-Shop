@@ -272,12 +272,23 @@ width: 100%;
 /*get deal section*/
 .get-deal{
     background-image: url(images/Rectangle\ 9.png);
-     margin: 0px 240px 50px 240px;
-     padding: 80px 160px 100px 160px; 
-     margin-bottom: 100px;
      
+    
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 235px;
+    margin-right: 235px;
+    margin-bottom: 100px;
+   padding-top: 80px;
+   padding-bottom: 60px;
+  
+   
+  
 
+ 
 }
+
 
 
 .get-p{
@@ -289,9 +300,10 @@ width: 100%;
     text-align: center;
 }
 .get-input input{
+    
     padding: 12px 130px;
-    text-align: left;
-    margin-top: 20px;
+ 
+  
     border: none;
     color:  rgba(39, 39, 39, 0.60);;
     border-radius: 8px;
@@ -299,10 +311,11 @@ width: 100%;
 font-size: 12px;
 font-weight: 400;}
 
+
 .get-input{
     display: inline;
+    padding:  80px 20px 100px 200px;
 }
-
 
 .get-btn{
     padding: 12px  20px;
@@ -313,6 +326,7 @@ font-weight: 400;}
     color: rgba(255, 255, 255, 0.925);
     font-weight: 700;
     border-radius: 8px;
+    
 }
 
 /*footer start*/
