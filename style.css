@@ -89,8 +89,8 @@ flex-shrink: 0;
     display: flex;
     
     align-items: center;
-   gap: 280px;
-    padding: 20px 350px 100px 280px;
+   gap: 260px;
+    padding: 20px 340px 100px 292px;
     margin-bottom: 300px;
    
 }
@@ -211,7 +211,7 @@ position: absolute;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding:  80px 240px 100px 240px;
+    padding:  80px 240px 100px 225px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     height: 200px;
@@ -226,7 +226,7 @@ position: absolute;
 }
 
 .hot-deal-text h2{
-    font-size: 25px;
+    font-size: 28px;
 ;
 }
 
@@ -280,11 +280,12 @@ position: absolute;
     margin-top: -3px;
 }
 .get-input input{
-    padding: 11px 130px;
+    padding: 12px 130px;
     text-align: left;
     margin-top: 20px;
     border: none;
-
+    border-radius: 8px;
+    background: #FFF;
 }
 
 .get-input{
