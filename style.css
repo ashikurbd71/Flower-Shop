@@ -350,13 +350,17 @@ font-weight: 400;}
 .footer-content{
     padding: 80px 160px 100px 160px; 
     background-color: #111010;
+    align-items: center;
+   
 }
 
 small{
     text-align: center;
     color: rgba(255, 255, 255, 0.40);
     font-size: 13px;
-   padding-left: 366px;
+ 
+   display: flex;
+   justify-content: center;
 }
 
 /*end-------------------------------------------------------*/
